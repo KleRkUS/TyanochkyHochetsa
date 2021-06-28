@@ -11,12 +11,18 @@ const port = process.env.PORT || 3000;
 const token = process.env.VK_ACCESS_TOKEN || '';
 const app = express_1.default();
 const bot = new node_vk_bot_api_1.default(token);
-bot.command('/start', (ctx) => {
+bot.on((ctx) => {
+    console.log(`Event triggered: ${JSON.stringify(ctx)}`);
     ctx.reply('Hello!');
 });
 app.use(body_parser_1.default.json());
 app.listen(port, () => {
     console.log(`App is listening on port ${port}`);
 });
-bot.startPolling();
+bot.startPolling((err) => {
+    if (err) {
+        console.log(err);
+    }
+    return {};
+});
 //# sourceMappingURL=index.js.map
