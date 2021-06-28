@@ -1,15 +1,15 @@
-const express = require('express');
-const VkBot = require('node-vk-bot-api');
+import express, { Express } from 'express';
+import VkBot from 'node-vk-bot-api';
 require("dotenv").config();
-const bodyParser = require('body-parser');
+import bodyParser from 'body-parser';
 
 const port: string | number = process.env.PORT || 3000;
 const token: string = process.env.VK_ACCESS_TOKEN || '';
 
-const app = express();
-const bot = new VkBot(token);
+const app: Express = express();
+const bot: VkBot = new VkBot(token);
 
-bot.command('/start', (ctx: { reply: (arg0: string) => void; }) => {
+bot.command('/start', (ctx: VkBotContext) => {
   ctx.reply('Hello!');
 });
 
