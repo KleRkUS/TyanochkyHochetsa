@@ -1,0 +1,24 @@
+{
+  "name": "tyanochkabot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.5",
+    "node-vk-bot-api": "^3.5.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
