@@ -1,0 +1,1 @@
+{"version":3,"file":"UsersSchema.js","sourceRoot":"","sources":["../../../src/database/Shemas/UsersSchema.ts"],"names":[],"mappings":";;AAAA,uCAAgC;AAGhC,MAAM,WAAW,GAAG,IAAI,iBAAM,CAAc;IAC1C,EAAE,EAAE,MAAM;IACV,OAAO,EAAE,MAAM;IACf,MAAM,EAAE,OAAO;IACf,MAAM,EAAE,OAAO;CAChB,CAAC,CAAA;AAEF,kBAAe,WAAW,CAAC"}

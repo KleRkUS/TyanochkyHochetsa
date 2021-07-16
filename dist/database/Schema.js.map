@@ -1,0 +1,1 @@
+{"version":3,"file":"Schema.js","sourceRoot":"","sources":["../../src/database/Schema.ts"],"names":[],"mappings":";;AAAA,uCAAkC;AAGlC,MAAM,YAAY,GAAG,IAAI,iBAAM,CAAc;IAC3C,QAAQ,EAAE,MAAM;IAChB,KAAK,EAAE;QACL,IAAI,EAAE,MAAM;QACZ,MAAM,EAAE,OAAO;KAChB;CACF,CAAC,CAAA;AAEF,kBAAe,YAAY,CAAC"}
